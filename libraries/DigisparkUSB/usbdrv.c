@@ -549,6 +549,7 @@ uchar       len;
 
 static inline void usbHandleResetHook(uchar notResetState)
 {
+#if 0
 #ifdef USB_RESET_HOOK
 static uchar    wasReset;
 uchar           isReset = !notResetState;
@@ -557,6 +558,7 @@ uchar           isReset = !notResetState;
         USB_RESET_HOOK(isReset);
         wasReset = isReset;
     }
+#endif
 #endif
 }
 

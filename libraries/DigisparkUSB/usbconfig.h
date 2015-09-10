@@ -48,7 +48,7 @@ section at the end of this file).
 #else
 /*	ATtiny2313, ATmega8/48/88/168	*/
 #define USB_CFG_IOPORTNAME      D
-#define USB_CFG_DMINUS_BIT      3
+#define USB_CFG_DMINUS_BIT      7 /* for ATmega328, changed D3 to D7 not to use INT1 */
 #define USB_CFG_DPLUS_BIT       2
 #endif
 #define USB_CFG_CLOCK_KHZ       (F_CPU/1000)
