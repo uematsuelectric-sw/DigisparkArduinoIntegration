@@ -1,0 +1,7 @@
+変更履歴
+1. "Arduino IDE - Digistump Release 1.5.8C" に含まれるDigisparkUSBをベースに
+  ATMEGA328対応を実施。
+  ただし取り敢えずの実装のため、ベースとなった ATtiny2313, ATmega8/48/88/168 では
+  動作しなくなっている。
+  
+
